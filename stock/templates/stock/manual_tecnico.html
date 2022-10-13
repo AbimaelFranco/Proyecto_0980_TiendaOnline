@@ -1,0 +1,184 @@
+{% extends "stock/base.html"%}
+
+{% load static %}
+{% block content %}
+    <!-- Start Banner Area -->
+	<section class="banner-area organic-breadcrumb">
+		<div class="container">
+			<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+				<div class="col-first">
+					<h1>Manual Técnico</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Banner Area -->
+	<br>
+
+        <!--================Blog Area =================-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 blog_details" style="text-align: justify;">
+                    <h1>Manual Técnico</h1>
+                    <p class="excert">
+                        Gracias por adquirir los derechos de la tienda online KaoriShop.<br>
+                        En la carpeta raiz podra encontrar el archivo "requirements.txt" en el que se enlistan las distintas librerias
+                        y dependencias necesarias para desplegar la tienda de manera correcta.<br>
+                        Así mismo a continuación se enlistan los distntos roles para la administración de la tienda y las funciones que
+                        puede realizar cada uno de ellos.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--================Apartado 1=================-->
+        <section class="blog_area single-post-area section_gap">
+            <div class="container">
+                <div class="row">
+    
+                        
+    
+                        <div class="single-post row">
+    
+                            <div class="col-lg-12 col-md-12 blog_details" style="text-align: justify;">
+                                <a>
+                                    <h2>Administrador Total</h2>
+                                </a>
+                                
+                                <p class="excert">
+                                    Es el principal administrador del sitio, cuenta con todos los privelegios y permisos. Este usuario
+                                    tiene control total sobre lo que sucede en la tienda, por lo que no debera crearse más de un usuario
+                                    de este tipo, y el mismo debera permenecer únicamente bajo el control del dueño.
+                                </p>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="quotes">
+                                    <strong>Importante: </strong> Este usuario no debera ser utilizado por ningun empleado, pues podría compromenter
+                                    la integridad del servicio.
+                                </div>
+                            </div>  
+                        </div>
+
+
+                        <div class="single-post row">
+                            <div class="feature-img" style="width: 75%; margin-left: auto; margin-right: auto;">
+                                <img class="img-fluid img-responsive" src="{% static 'stock/img/manual/15.png'%}" alt="" >
+                            </div>
+                        </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!--================Apartado 1=================-->
+
+        <!--================Apartado 2=================-->
+        <section class="blog_area single-post-area section_gap">
+            <div class="container">
+                <div class="row">
+    
+                        
+    
+                        <div class="single-post row">
+    
+                            <div class="col-lg-12 col-md-12 blog_details" style="text-align: justify;">
+                                <a">
+                                    <h2>Administrador</h2>
+                                </a>
+                                
+                                <p class="excert">
+                                    El rol de administrador es para el gerente de tienda, pues podra los distintos articulos del inventario,
+                                    el resumen y control total sobre los pedidos, así como información general de los clientes para facilitar la entrega
+                                    de sus compras.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="single-post row">
+                            <div class="feature-img" style="width: 75%; margin-left: auto; margin-right: auto;">
+                                <img class="img-fluid img-responsive" src="{% static 'stock/img/manual/16.png'%}" alt="" >
+                            </div>
+                        </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!--================Apartado 2=================-->
+
+        <!--================Apartado 3=================-->
+        <section class="blog_area single-post-area section_gap">
+            <div class="container">
+                <div class="row">
+    
+                        
+    
+                        <div class="single-post row">
+    
+                            <div class="col-lg-12 col-md-12 blog_details" style="text-align: justify;">
+                                <a>
+                                    <h2>Empleado</h2>
+                                </a>
+                                
+                                <p class="excert">
+                                    Los empleados podran acceder al inventario y modificar sus parámetros. Así mismo podrá visualizar
+                                    y crear nuevos pedidos, aunque no eliminar los ya existentes.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="single-post row">
+                            <div class="feature-img" style="width: 75%; margin-left: auto; margin-right: auto;">
+                                <img class="img-fluid img-responsive" src="{% static 'stock/img/manual/17.png'%}" alt="" >
+                            </div>
+                        </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!--================Apartado 3=================-->
+
+        <!--================Apartado 3=================-->
+        <section class="blog_area single-post-area section_gap">
+            <div class="container">
+                <div class="row">
+    
+                        
+    
+                        <div class="single-post row">
+    
+                            <div class="col-lg-12 col-md-12 blog_details" style="text-align: justify;">
+                                <a>
+                                    <h2>Cliente</h2>
+                                </a>
+                                
+                                <p class="excert">
+                                    Los clientes son aquellas que no pueden acceder al panel de administración, sin embargo
+                                    son los únicos que pueden realizar pedidos. Para crear un usuario se recomienda hacerlo
+                                    directamente desde el formulario de "Registrarse".
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="single-post row">
+                            <div class="feature-img" style="width: 75%; margin-left: auto; margin-right: auto;">
+                                <img class="img-fluid img-responsive" src="{% static 'stock/img/manual/18.png'%}" alt="" >
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </section>
+        <!--================Apartado 3=================-->
+
+
+
+        <!--================Blog Area =================-->
+
+
+
+{% endblock %}

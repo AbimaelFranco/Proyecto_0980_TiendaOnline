@@ -1,0 +1,28 @@
+{% extends "stock/base.html"%}
+
+{% load static %}
+{% block content %}
+    <!-- Start Banner Area -->
+	<section class="banner-area organic-breadcrumb">
+		<div class="container">
+			<div class="breadcrumb-banner d-flex flex-wrap align-items-center justify-content-end">
+				<div class="col-first">
+					<h1>Reconocimiento Facial</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Banner Area -->
+	<hr>
+
+	<!--================Contact Area =================-->
+	<section class="contact_area section_gap_bottom">
+        <div class=" col text-center">
+            <h1 style="text-align: center;">Reconocimiento Facial</h1>
+            <a class="primary-btn center" href="{% url 'perfil_pdf'%}">Completar Registro</a>
+        </div>
+	</section>
+	<!--================Contact Area =================-->
+	<hr>
+
+{% endblock %}
