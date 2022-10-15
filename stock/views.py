@@ -41,10 +41,6 @@ def manual_usuario(request):
 
     return render(request, "stock/manual_usuario.html")
 
-def manual_tecnico(request):
-
-    return render(request, "stock/manual_tecnico.html")
-
 def checkout(request):
     info_usuario = usuarios.objects.all()
     pedido_valido = True
